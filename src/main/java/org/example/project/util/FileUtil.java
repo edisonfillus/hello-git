@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class FileUtil {
-
+	
+	private FileUtil(){}
    
     public static String inputStreamtoString(InputStream inputStream) throws IOException {
     	ByteArrayOutputStream result = new ByteArrayOutputStream();
